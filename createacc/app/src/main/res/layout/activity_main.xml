@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:text="@string/firstLabel"
+        android:textColor="@color/head"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:background="@color/heading"
+        ></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/account"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/secondLabel"
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="@string/secondLabel"
+        android:textSize="30sp"
+        android:textColor="@color/buttonColor"
+        ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ename"
+        android:hint="@string/tname"
+        android:inputType="text"
+
+        ></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:text="@string/thirdLabel"
+        android:textSize="30dp"
+        android:textColor="@color/buttonColor"
+
+
+        ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailfield"
+        android:hint="@string/emailaddtext"
+        android:inputType="textWebEmailAddress"
+
+        ></EditText>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pa"
+            android:textSize="30sp"
+            android:textColor="@color/buttonColor"
+            android:text="@string/fifthLabel"
+            ></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pat1"
+            android:id="@+id/pass1"
+            android:inputType="textPassword"
+            ></EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sixthLabel"
+            android:textSize="30sp"
+            android:textColor="@color/buttonColor"
+
+            ></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass2"
+            android:hint="@string/pat2"
+            android:inputType="textPassword"
+            ></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/innerLay"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gender"
+            android:text="@string/fourthLabel"
+            android:textSize="30sp"
+            android:textColor="@color/buttonColor"
+            >
+
+        </TextView>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rg"
+            >
+
+            <RadioButton
+                android:id="@+id/f"
+                android:layout_width="260dp"
+                android:layout_height="54dp"
+                android:checked="false"
+                android:text="@string/secondGender"
+                android:textColor="@color/buttonColor"
+                android:textSize="30sp"
+                >
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/m"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/firstGender"
+                android:textColor="@color/buttonColor"
+                android:textSize="30sp">
+
+            </RadioButton>
+            </RadioGroup>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorAccent"
+        android:text="Register"
+        android:textColor="@color/buttonColor"
+        android:textSize="25sp"
+
+        ></Button>
+
+</LinearLayout>

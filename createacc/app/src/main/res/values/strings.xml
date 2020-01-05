@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FIRSTAPP</string>
+    <string name="firstLabel">REGISTER HERE</string>
+    <string name="secondLabel">Enter Name</string>
+    <string name="tname">Your Name</string>
+    <string name="thirdLabel">Email Id</string>
+    <string name="emailaddtext">Email Address</string>
+    <string name="fourthLabel">Gender</string>
+    <string name="firstGender">Male</string>
+    <string name="secondGender">Female</string>
+    <string name="fifthLabel">Set Password</string>
+    <string name="sixthLabel">Confirm Password</string>
+    <string name="pat2">Re-enter password</string>
+    <string name="pat1">Enter Password Here</string>
+
+</resources>
